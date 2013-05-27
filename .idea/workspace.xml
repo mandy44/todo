@@ -10,7 +10,7 @@
     <file path="/Dummy.txt" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369542965793" ignored="false" />
     <file path="/20130521120214_create_tasks.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369147215469" ignored="false" />
     <file path="/task.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369655616561" ignored="false" />
-    <file path="/tasks_controller.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369656390639" ignored="false" />
+    <file path="/tasks_controller.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369671109263" ignored="false" />
     <file path="/task_spec.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369655739282" ignored="false" />
     <file path="/tasks.rb" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369652428466" ignored="false" />
     <file path="/.rspec" changelist="491835cd-be79-4dc0-affb-c95587a560d1" time="1369147290034" ignored="false" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="tasks_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="43" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.68296796">
+            <state line="54" column="25" selection-start="906" selection-end="906" vertical-scroll-proportion="0.6458685">
               <folding />
             </state>
           </provider>
@@ -855,7 +855,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33009708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33009708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1035,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="43" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.68296796">
+        <state line="54" column="25" selection-start="906" selection-end="906" vertical-scroll-proportion="0.6458685">
           <folding />
         </state>
       </provider>
