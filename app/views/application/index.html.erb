@@ -14,9 +14,13 @@
 
   <tbody>
 <% @tasks.each do |task| %>
-  <tr <% if task.deadline < Time.now then %>class="red"<% end %> >
+  <tr <% if !task.deadline.nil? && task.deadline < Time.now then %>class="red"<% end %> >
     <td><%= task.name %></td>
+    <% if task.deadline.nil? then %>
+    <td> </td>
+    <% else %>
     <td><%= task.deadline.strftime("%Y-%m-%d %H:%M:%S") %></td>
+    <% end %>
     <td><%= task.created_at.strftime("%Y-%m-%d %H:%M:%S") %></td>
     <td><%= link_to 'Edit', edit_task_path(task) %> <%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>

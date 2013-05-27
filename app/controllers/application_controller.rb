@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   # GET /
   # GET /index
   def index
-    @tasks = Task.all
+    @tasks = Task.get_not_finished
   end
 end

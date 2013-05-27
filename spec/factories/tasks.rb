@@ -18,4 +18,14 @@ FactoryGirl.define do
     deadline 1.day.ago
     is_finished FALSE
   end
+
+  factory :finished, class: Task do
+    name "finished task"
+    is_finished TRUE
+  end
+
+  factory :not_finished, class: Task do
+    name "not finished"
+    is_finished FALSE
+  end
 end

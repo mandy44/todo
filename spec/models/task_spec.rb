@@ -28,4 +28,24 @@ describe "TasksModel" do
       expect(task).to have(1).errors_on(:name)
     end
   end
+
+  describe "When get Tasks" do
+    it "can get unfinished task" do
+      FactoryGirl.create(:finished)
+      FactoryGirl.create(:not_finished)
+
+      not_finished = Task.get_not_finished
+      expect(not_finished.size).to equal(1)
+      expect(not_finished.first.is_finished).to equal(FALSE)
+    end
+
+    it "can get finished task" do
+      FactoryGirl.create(:finished)
+      FactoryGirl.create(:not_finished)
+
+      finished = Task.get_finished
+      expect(finished.size).to equal(1)
+      expect(finished.first.is_finished).to equal(TRUE)
+    end
+  end
 end

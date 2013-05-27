@@ -44,7 +44,7 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     database_cleaner (1.0.1)
-    debase (0.0.3)
+    debase (0.0.4)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (1.4.0)
@@ -67,7 +67,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.23)
-    multi_json (1.7.3)
+    multi_json (1.7.4)
     mysql2 (0.3.11)
     nokogiri (1.5.9)
     polyglot (0.3.3)
@@ -137,7 +137,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   database_cleaner
   debase
-  factory_girl_rails
+  factory_girl_rails (~> 4.0)
   faker
   jquery-rails
   mysql2

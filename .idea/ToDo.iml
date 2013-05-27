@@ -31,7 +31,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v1.0.1, rbenv: 2.0.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debase (v0.0.3, rbenv: 2.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debase (v0.0.4, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, rbenv: 2.0.0-p0) [gem]" level="application" />
@@ -45,7 +45,7 @@
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, rbenv: 2.0.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.3, rbenv: 2.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.4, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.9, rbenv: 2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, rbenv: 2.0.0-p0) [gem]" level="application" />
