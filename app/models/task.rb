@@ -12,4 +12,9 @@ class Task < ActiveRecord::Base
       self.where(:is_finished => TRUE).all
     end
   end
+
+  def finish
+    self.is_finished = TRUE
+    save
+  end
 end

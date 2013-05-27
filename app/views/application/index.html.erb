@@ -22,7 +22,7 @@
     <td><%= task.deadline.strftime("%Y-%m-%d %H:%M:%S") %></td>
     <% end %>
     <td><%= task.created_at.strftime("%Y-%m-%d %H:%M:%S") %></td>
-    <td><%= link_to 'Edit', edit_task_path(task) %> <%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Finish', finish_task_path(task), data: { confirm: 'Are you sure?' } %> <%= link_to 'Edit', edit_task_path(task) %> <%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
   </tbody>

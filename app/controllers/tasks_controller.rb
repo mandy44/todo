@@ -80,4 +80,12 @@ class TasksController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  # GET /tasks/1/finish
+  def finish
+    @task = Task.find(params[:id])
+    @task.finish
+
+    redirect_to root_path
+  end
 end

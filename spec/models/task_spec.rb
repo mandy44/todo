@@ -48,4 +48,13 @@ describe "TasksModel" do
       expect(finished.first.is_finished).to equal(TRUE)
     end
   end
+
+  describe "When finish Tasks" do
+    it "correctly finish task" do
+      task = FactoryGirl.build(:not_finished)
+      task.finish
+
+      expect(task.is_finished).to equal(TRUE);
+    end
+  end
 end

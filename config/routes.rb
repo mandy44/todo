@@ -1,6 +1,8 @@
 ToDo::Application.routes.draw do
   root :to => 'application#index'
   resources :tasks
+
+  get 'tasks/:id/finish' => 'tasks#finish', as: 'finish_task'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
