@@ -11,3 +11,32 @@
  *= require_self
  *= require_tree .
  */
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.task_name {
+
+}
+
+.task_deadline {
+    width: 15%;
+}
+
+.task_registered {
+    width: 15%;
+}
+
+.task_button {
+    width: 10%;
+}
+
+table#todo {
+    text-align: center;
+}
+
+.end {
+    text-align: right;
+}

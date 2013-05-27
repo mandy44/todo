@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+jQuery(function($) {
+    $('#todo').tablesorter({
+        sortList: [[2, 0]],
+        headers: {
+            3: {sorter:false}
+        }
+    });
+}); //jQuery

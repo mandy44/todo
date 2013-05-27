@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2854525136">
+  <component name="DataSourceManagerImpl" format="xml" hash="3979931590">
     <data-source source="LOCAL" name="Rails ToDo: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="203cc276-d7a0-48d3-9bda-333576ce8bf6">
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/ToDo_production</jdbc-url>

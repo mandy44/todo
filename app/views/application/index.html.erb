@@ -1,0 +1,25 @@
+<h1>ToDo List</h1>
+
+<div class="end"><%= link_to 'New Task', new_task_path %></div>
+
+<table id="todo" class="tablesorter">
+  <thead>
+  <tr>
+    <th class="task_name">Name</th>
+    <th class="task_deadline">Deadline</th>
+    <th class="task_registered">Registered at</th>
+    <th class="task_button"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+<% @tasks.each do |task| %>
+  <tr <% if task.deadline < Time.now then %>class="red"<% end %> >
+    <td><%= task.name %></td>
+    <td><%= task.deadline.strftime("%Y-%m-%d %H:%M:%S") %></td>
+    <td><%= task.created_at.strftime("%Y-%m-%d %H:%M:%S") %></td>
+    <td><%= link_to 'Edit', edit_task_path(task) %> <%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+  </tbody>
+</table>
